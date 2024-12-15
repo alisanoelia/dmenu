@@ -72,15 +72,15 @@ static const unsigned int alphas[SchemeLast][2] = {
 
 static char *colors[SchemeLast][ColCount] = {
     /*                        fg         bg         resource prefix */
-    [SchemeNorm] = {"#bbbbbb", "#051012", "norm"},
-    [SchemeSel] = {"#eeeeee", "#374547", "sel"},
+    [SchemeNorm] = {"#ebdbb2", "#1b2123", "norm"},
+    [SchemeSel] = {"#ebdbb2", "#374547", "sel"},
     [SchemeOut] = {"#000000", "#00ffff", "out"},
-    [SchemeBorder] = {"#000000", "#051012", "border"},
-    [SchemePrompt] = {"#eeeeee", "#a18a5d", "prompt"},
-    [SchemeAdjacent] = {"#eeeeee", "#770000", "adjacent"},
+    [SchemeBorder] = {"#000000", "#1b2123", "border"},
+    [SchemePrompt] = {"#1b2123", "#d8a657", "prompt"},
+    [SchemeAdjacent] = {"#ebdbb2", "#770000", "adjacent"},
     [SchemeSelHighlight] = {"#a18a5d", "#374547", "selhl"},
-    [SchemeNormHighlight] = {"#a18a5d", "#051012", "normhl"},
-    [SchemeHp] = {"#bbbbbb", "#051012", "hp"},
+    [SchemeNormHighlight] = {"#ebdbb2", "#1b2123", "normhl"},
+    [SchemeHp] = {"#bbbbbb", "#1b2123", "hp"},
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines = 8;
